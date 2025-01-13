@@ -1,0 +1,91 @@
+/* Container Styling */
+.signUp-container {
+  background-color: #ffffff; /* Clean white background */
+  border: 1px solid #ddd; /* Subtle border for structure */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 30px; /* Spacing inside the container */
+  max-width: 400px; /* Restrict width for better layout */
+  margin: 50px auto; /* Center on the page */
+  font-family: cursive; /* Simple and readable font */
+  color: #333; /* Default text color */
+}
+
+/* Heading and Paragraph */
+.signUp-container h2 {
+  font-size: 2rem;
+  color: #eab115; /* Header color matching the header of your project */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signUp-container p {
+  font-size: 1rem;
+  color: #666; /* Subtle gray for descriptions */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  gap: 15px; /* Space between form elements */
+}
+
+/* Labels */
+label {
+  font-size: 1rem;
+  color: #555; /* Neutral color for labels */
+}
+
+/* Input Fields */
+input {
+  padding: 10px;
+  border: 1px solid #ddd; /* Light border for inputs */
+  border-radius: 5px; /* Rounded input fields */
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+input:focus {
+  outline: none; /* Removes default focus outline */
+  border-color: #007BFF; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle blue glow */
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  background-color: #007BFF; /* Primary button color */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 5px; /* Rounded button */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+/* Footer Links */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555; /* Neutral gray for footer text */
+}
+
+.footer a {
+  color: #eab115; /* Matches the header's primary color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #d49e0d; /* Slightly darker on hover */
+}

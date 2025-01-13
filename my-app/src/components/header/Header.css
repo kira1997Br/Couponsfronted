@@ -1,0 +1,49 @@
+/* Header container styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem; /* Reduced padding to make the header narrower */
+  background-color: #333;
+  color: white;
+}
+
+/* Logo section styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 130px; /* Reduced height for a narrower look */
+  width: auto;   /* Maintains the aspect ratio */
+  margin-right: 2ch; /* Reduced margin between logo and text */
+}
+
+.logo h1 {
+  font-size: 1.5rem; /* Reduced font size for a more compact look */
+  color: beige;
+}
+
+/* Navbar styling */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 0.5rem; /* Reduced spacing between items */
+}
+
+.navbar a {
+  color: beige;
+  text-decoration: none;
+  font-size: 1.5rem; /* Reduced font size for links */
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #00bcd4;
+}

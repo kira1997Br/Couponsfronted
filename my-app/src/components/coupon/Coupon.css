@@ -1,0 +1,85 @@
+.coupon {
+  background-color: transparent; /* מסיר את הרקע הלבן */
+  border: none; /* מסיר את הגבול */
+  border-radius: 8px; /* פינות מעוגלות */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צללים עדינים */
+  padding: 5px; /* ריפוד פנימי */
+  margin: 20px auto; /* מיקום מרכזי */
+  max-width: 300px; /* גודל מקסימלי */
+  font-family: cursive;
+  color: #333; /* צבע טקסט */
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s; /* אנימציה חלקה */
+}
+
+.coupon:hover {
+  transform: scale(1.05); /* הגדלה קלה בהעברה */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* צללים חזקים יותר בהעברה */
+}
+
+/* Title */
+.coupon h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.coupons-description {
+  font-size: 1.1rem;
+  color: #666; /* צבע עדין לתיאור */
+  margin-bottom: 20px;
+}
+
+/* Image */
+.coupon img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px; /* פינות מעוגלות לתמונה */
+  margin-bottom: 15px;
+  object-fit: cover; /* תואם את התמונה לגודל */
+  max-height: 200px; /* גובה אחיד לתמונה */
+}
+
+/* Dates */
+.coupon-dates {
+  font-size: 1rem;
+  color: #007BFF; /* צבע דינמי לתאריך */
+  margin-bottom: 10px;
+}
+
+/* Price and Amount */
+.coupon strong {
+  display: block;
+  font-size: 1.4rem;
+  color: #28a745; /* צבע ירוק למחיר */
+  margin: 10px 0;
+}
+
+.coupon p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555; /* צבע נייטרלי לפסקאות */
+}
+
+/* Company and Category */
+.coupon p:last-child {
+  color: #888; /* צבע בהיר יותר לפרטי הקטגוריה */
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  .coupon {
+      padding: 15px;
+      margin: 10px auto;
+  }
+
+  .coupon h2 {
+      font-size: 1.5rem;
+  }
+
+  .coupon strong {
+      font-size: 1.2rem;
+  }
+}

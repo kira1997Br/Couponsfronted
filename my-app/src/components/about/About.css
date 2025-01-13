@@ -1,0 +1,83 @@
+/* About Page Container */
+.about-container {
+    background-color: #fff; /* Clean, white background */
+    border-radius: 12px; /* Soft rounded corners */
+    padding: 40px;
+    max-width: 900px;
+    margin: 50px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+  }
+  
+  /* Main Heading */
+  .about-container h1 {
+    font-size: 3rem;
+    color: #eab115; /* Vibrant yellow to match the pet shop theme */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheading Style */
+  .about-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Paragraph Styling */
+  .about-container p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left for better readability */
+  }
+  
+  /* List Styling */
+  .about-container ul {
+    list-style-type: none; /* No bullet points */
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  .about-container li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-container li::before {
+    content: "🐾"; /* Paw print before each list item */
+    margin-right: 10px;
+  }
+  
+  /* Strong Text Styling */
+  .about-container strong {
+    color: #eab115;
+    font-weight: bold;
+  }
+  
+  /* Button Styling (Optional) */
+  .about-container .cta-button {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .about-container .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
